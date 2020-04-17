@@ -1,4 +1,3 @@
-
 body{
 	padding-top: 20px;
 	padding-left: 5%;
@@ -10,15 +9,12 @@ body{
 	border: 1px solid black;
 	padding: 15px;
 }
-
 #cabecera{
 	text-align: center; 
 }
-
 #menu{
 	text-align: center;
 }
-
 #menu a{
     display: inline-block;
     background-color: #adbecf;
@@ -29,7 +25,6 @@ body{
     width: 15%;
     border-radius: 5px;
 }
-
 #menu a:hover{
 	color: white;
 	background-color: gray;
@@ -41,80 +36,46 @@ body{
 #menu .menu_activo{
 	background-color: #d39c87;
 }
-
-#sec_quien_soy {
+#quienes_somos {
 	display: flex;
-}
-#sec_quien_soy #titulo_soy_dg{
+ }
+
+#quienes_somos #titulo_quienes_somos{
 	margin-bottom: 1px;
 }
-
-#sec_quien_soy #small_soy_dg{
+#quienes_somos #small_diseño_digital_3D{
 	font-size: small;
 }
-
-#sec_quien_soy #art_soy p{
+#art_quienes_somos p{
 	text-align: justify;
 }
-
-#sec_quien_soy #art_soy hr{
-	border-radius: 50%;
-	background-color: black;
-	height: 1px;
-	width: 30px;
-	margin-left: 0;
-	transform: rotate(1deg);
-}
-#sec_a_que_me_dedico {
-	color: white;
-	background-color: #6fa8dc;
-	text-align: center;
-
-}
-
-#sec_a_que_me_dedico hr{
+#art_quienes_somos hr{
 	background-color: white;
 	width: 30%;
 	height: 3px;
 	border-radius: 50%;
 	transform: rotate(1deg);
 }
-#sec_a_que_me_dedico h1{
-	margin-bottom: 0;
-}
-#sec_como_puedo_ayudarte{
-	text-align: center;
-}
-#sec_como_puedo_ayudarte #sec_servicios{
-	display: flex; 
+#quienes_somos img{
+    width: 100%;
 }
 
-#sec_como_puedo_ayudarte #sec_servicios .art_tz{
-	margin-left: 15px;
-
-}
-
-#sec_como_puedo_ayudarte #sec_servicios article{
-	background-color: #FF9800;
-	color:white;
-	border:2px solid blue;
-}
-
-#sec_como_puedo_ayudarte #sec_servicios article p{
-	text-align: justify;
-}
-
-#sec_herramientas {
-	text-align: center;
+#nuestro_equipo {
+	color: white;
 	background-color: #6fa8dc;
-}
-#sec_herramientas table {
-	width: 40%;
-	color: black;
-	background-color: white;
-}
+	text-align: center;
 
 }
-#pie_de_pagina{
-	text-align: center;
+
+
+
+#nuestro_equipo hr{
+	background-color: white;
+	width: 30%;
+	height: 3px;
+	border-radius: 50%;
+	transform: rotate(1deg);
+}
+#nuestro_equipo h1{
+	margin-bottom: 0;
 }
